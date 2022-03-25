@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+* {
+    font-family: 'Hubballi', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+main {
+    width: 100%;
+    height: 80vh;
+    border: 1px solid;
+    background: rgb(223, 146, 61);
+    background: linear-gradient(180deg, rgba(223, 146, 61, 0.8919540229885058) 48%, rgba(0, 212, 255, 1) 100%);
+}
+
+h1,
+h2,
+h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+button {
+    display: block;
+    padding: 20px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+footer {
+    text-align: center;
+    font-weight: 900;
+}
